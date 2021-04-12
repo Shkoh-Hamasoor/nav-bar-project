@@ -10,13 +10,13 @@ export class NavigationComponent implements OnInit {
 
   ngOnInit() {}
 }
-const navSlide = () => {
-  const burger = document.querySelector(".burger");
-  const nav = document.querySelector(".nav-links");
+// const navSlide = () => {
+//   const burger = document.querySelector(".burger");
+//   const nav = document.querySelector(".nav-links");
 
-  burger.addEventListener("click", () => {
-    nav.classList.toggle("nav-active");
-  });
-};
+//   burger.addEventListener("click", () => {
+//     nav.classList.toggle("nav-active");
+//   });
+// };
 
-navSlide();
+// navSlide();

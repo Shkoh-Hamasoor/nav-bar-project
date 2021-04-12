@@ -14,7 +14,7 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  min-height: 8hv;
+  min-height: 8vh;
   font-family: "Spectral SC", serif;
   background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
 }
@@ -35,7 +35,7 @@ nav {
 }
 .burger {
   display: none;
-  cursor: pointer4;
+  cursor: pointer;
 }
 .burger div {
   background-color: black;
@@ -75,4 +75,39 @@ nav {
 }
 .nav-active {
   transform: translateX(0%);
+}
+.search-input {
+  background: whitesmoke;
+  list-style: none;
+  width: 35%;
+  border-radius: 10px;
+  box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.1);
+}
+.search-input input {
+  height: 50px;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  padding: 0 1px 0 18px;
+  font-size: 18px;
+
+  box-shadow: 0px 1px 3px 2px rgba(0, 0, 0, 0.2);
+}
+.search-input .autocom-box {
+  /* padding: 10px 8px; */
+  max-height: 280px;
+  overflow-y: auto;
+  opacity: 0;
+  pointer-events: none;
+}
+.autocom-box li {
+  padding: 8px 12px;
+  width: 100%;
+  cursor: default;
+  border-radius: 3px;
+  display: none;
+}
+.autocom-box li:hover {
+  background: lightgray;
 }
