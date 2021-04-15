@@ -1,0 +1,49 @@
+
+body {
+  font-family: Arial, sans-serif;
+  min-height: 50vh;
+  margin: 50px;
+  display: flex;
+  place-items: center;
+  color: #444;
+  background: rgba(196, 192, 192, 0.295);
+}
+.header-section {
+  position: absolute;
+  bottom: 10em;
+  right: 1.2em;
+  font-weight: 400;
+  font-size: 23px;
+  padding: 0.76em 0.5em 0.76em;
+  background: rgba(136, 161, 158, 0.24);
+
+  clip-path: polygon(
+    20% 0%,
+    80% 0%,
+    100% 20%,
+    100% 80%,
+    80% 100%,
+    20% 100%,
+    0% 80%,
+    0% 20%
+  );
+}
+.item-name {
+  font-weight: 400;
+  margin: 0.75em 0;
+  display: flex;
+}
+.container {
+  width: 15.5em;
+  position: relative;
+}
+img {
+  max-width: 75%;
+}
+.img-section {
+ display: inline-flex;
+gap:25px
+}
+.itemHeader{
+  display: flex;
+}
