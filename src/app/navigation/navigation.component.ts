@@ -6,10 +6,24 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./navigation.component.css"]
 })
 export class NavigationComponent implements OnInit {
+
+
   constructor() {}
 
-  ngOnInit() {}
+
+
+  ngOnInit() {
+
+  }
+  
+  onSignout(){
+  localStorage.removeItem('token');
 }
+}
+
+
+
+
 // const navSlide = () => {
 //   const burger = document.querySelector(".burger");
 //   const nav = document.querySelector(".nav-links");
