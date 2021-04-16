@@ -1,3 +1,8 @@
+* {
+  margin: 6px;
+  padding: 0px;
+  box-sizing: border-box;
+}
 body {
   font-family: Arial, sans-serif;
   min-height: 50vh;
@@ -5,7 +10,18 @@ body {
   display: flex;
   place-items: center;
   color: #444;
-  background: rgba(238, 233, 233, 0.295);
+  /* background: rgba(238, 233, 233, 0.295); */
+  background: #f8f8f8;
+}
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  body {
+    overflow-x: hidden;
+  }
 }
 img {
   max-width: 100%;
@@ -16,7 +32,7 @@ img {
   padding: 0.76em 0.5em 0.76em;
   border-radius: 10%;
   background: rgba(227, 236, 235, 0.411);
-  clip-path: polygon(100% 0%, 83% 49%, 100% 100%, 0 100%, 0% 50%, 0 0);
+  clip-path: polygon(100% 0%, 89% 48%, 100% 100%, 0 100%, 0% 50%, 0 0);
 }
 .container {
   width: 15.5em;
